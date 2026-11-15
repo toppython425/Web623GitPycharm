@@ -3,6 +3,14 @@ def add(a, b):
 
 
 def product(a, b):
+    """
+    :param a:
+        num1
+    :param b:
+        num2
+    :return:
+        num1 * num2
+    """
     return a * b
 
 
