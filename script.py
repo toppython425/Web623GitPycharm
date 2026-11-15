@@ -1,4 +1,7 @@
 def add(a, b):
+    """
+    сложение
+    """
     return a + b
 
 
