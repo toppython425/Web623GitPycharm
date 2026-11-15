@@ -26,6 +26,9 @@ def subtract(a, b):
 
 
 def divide(a, b):
+    """
+    Деление
+    """
     if b != 0:
         return a / b
     raise ZeroDivisionError('На ноль делить нельзя!')
