@@ -1,4 +1,7 @@
 def add(a, b):
+    """
+    сложение
+    """
     return a + b
 
 
@@ -18,7 +21,14 @@ def multiply(a, b):
     return a ** b
 
 
+def subtract(a, b):
+    return a - b
+
+
 def divide(a, b):
+    """
+    Деление
+    """
     if b != 0:
         return a / b
     raise ZeroDivisionError('На ноль делить нельзя!')
